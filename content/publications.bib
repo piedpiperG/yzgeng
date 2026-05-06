@@ -26,19 +26,21 @@
   url = {https://anonymous.4open.science/api/repo/melocodec_demo-60EC/file/demo.html?v=42c197c7}
 }
 
-@inproceedings{geng2025eegvc,
+@inproceedings{bai2026hqsvc,
   selected = {true},
-  title = {EEG-based Voice Conversion: Hearing the Voice of Your Brain},
-  author = {Yizhong Geng and Wenxin Fu and Qihang Lu and Bingsong Bai and Cong Wang and Yingming Gao and Ya Li*},
-  year = {2025},
-  month = sep,
-  booktitle = {INTERSPEECH},
-  doi = {10.5281/zenodo.15510829},
-  abstract = {The connection between EEG signals and human voice has gained significant attention, with studies demonstrating the feasibility of speech synthesis from EEG data. This work presents the first EEG-based zero-shot voice conversion system that converts speech into a target speaker's voice without prior target data by integrating an EEG feature extraction module with an alignment module to map EEG features to speaker-specific voice features.},
-  description = {Proposes the first EEG-based zero-shot voice conversion framework, linking neural activity with speaker-specific voice characteristics for assistive communication and brain-computer interfaces.},
-  keywords = {EEG, Zero-Shot Voice Conversion, Cross-Modal Generation, Speaker Embedding},
-  pdf = {/papers/interspeech2025-yizhong-geng.pdf},
-  url = {https://doi.org/10.5281/zenodo.15510829}
+  title = {HQ-SVC: Towards High-Quality Zero-Shot Singing Voice Conversion in Low-Resource Scenarios},
+  author = {Bingsong Bai and Yizhong Geng and Fengping Wang and Cong Wang and Puyuan Guo and Yingming Gao and Ya Li},
+  year = {2026},
+  month = jan,
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume = {40},
+  number = {36},
+  pages = {30013--30021},
+  doi = {10.1609/aaai.v40i36.40249},
+  abstract = {Zero-shot singing voice conversion transforms a source singer's timbre to an unseen target speaker's voice while preserving melodic content without fine-tuning. HQ-SVC extracts joint content and speaker features with a decoupled codec, enhances fidelity through pitch and volume modeling, and progressively refines outputs through differentiable signal processing and diffusion techniques.},
+  description = {Presents an efficient zero-shot singing voice conversion system for low-resource scenarios, improving conversion quality and supporting voice super-resolution.},
+  keywords = {Singing Voice Conversion, Zero-Shot Voice Conversion, Low-Resource Speech, Audio Super-Resolution},
+  code = {https://huggingface.co/shawnpi/HQ-SVC}
 }
 
 @inproceedings{geng2025thai,
@@ -46,11 +48,98 @@
   title = {Scaling Under-Resourced TTS: A Data-Optimized Framework with Advanced Acoustic Modeling for Thai},
   author = {Yizhong Geng and Jizhuo Xu and Zeyu Liang and Jinghan Yang and Xiaoyi Shi and Xiaoyu Shen*},
   year = {2025},
-  month = may,
-  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL), Industry Track},
+  month = jul,
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 6: Industry Track)},
+  pages = {593--604},
+  doi = {10.18653/v1/2025.acl-industry.42},
   abstract = {Text-to-speech technology has achieved impressive results for widely spoken languages, yet many under-resourced languages remain challenged by limited data and linguistic complexities. This work integrates a data-optimized framework with advanced acoustic modeling to build high-quality Thai TTS, supporting zero-shot voice cloning and improved performance across finance, healthcare, education, and law scenarios.},
   description = {Builds a scalable industrial Thai TTS framework with data construction, phoneme-tone modeling, and acoustic modeling for low-resource speech synthesis.},
   keywords = {Text-to-Speech, Low-Resource Languages, Thai, Acoustic Modeling, Zero-Shot Voice Cloning},
   pdf = {/papers/acl2025-yizhong-geng.pdf},
   url = {https://luoji.cn/static/thai/demo.html}
+}
+
+@inproceedings{geng2025eegvc,
+  selected = {true},
+  title = {EEG-based Voice Conversion: Hearing the Voice of Your Brain},
+  author = {Yizhong Geng and Wenxin Fu and Qihang Lu and Bingsong Bai and Cong Wang and Yingming Gao and Ya Li*},
+  year = {2025},
+  month = aug,
+  booktitle = {INTERSPEECH},
+  doi = {10.21437/Interspeech.2025-656},
+  abstract = {The connection between EEG signals and human voice has gained significant attention, with studies demonstrating the feasibility of speech synthesis from EEG data. This work presents the first EEG-based zero-shot voice conversion system that converts speech into a target speaker's voice without prior target data by integrating an EEG feature extraction module with an alignment module to map EEG features to speaker-specific voice features.},
+  description = {Proposes the first EEG-based zero-shot voice conversion framework, linking neural activity with speaker-specific voice characteristics for assistive communication and brain-computer interfaces.},
+  keywords = {EEG, Zero-Shot Voice Conversion, Cross-Modal Generation, Speaker Embedding},
+  pdf = {/papers/interspeech2025-yizhong-geng.pdf},
+  url = {https://doi.org/10.21437/Interspeech.2025-656}
+}
+
+@inproceedings{guo2025melrefine,
+  title = {Mel-Refine: A Plug-and-Play Approach to Refine Mel-Spectrogram in Audio Generation},
+  author = {Hongming Guo and Ruibo Fu and Yizhong Geng and Shuchen Shi and Tao Wang and Chunyu Qiang and Ya Li and Zhengqi Wen and Yukun Liu and Xuefei Liu and Chenxing Li},
+  year = {2025},
+  month = dec,
+  booktitle = {IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)},
+  pages = {1--6},
+  doi = {10.1109/ASRU65441.2025.11434719},
+  abstract = {Text-to-audio models that rely on mel-spectrograms can struggle to generate rich content. Mel-Refine analyzes U-Net structure in mel-spectrogram generation and proposes a plug-and-play inference-time refinement method that enhances texture and detail without additional training or fine-tuning.},
+  description = {A plug-and-play mel-spectrogram refinement approach for improving diffusion-based text-to-audio generation without retraining.},
+  keywords = {Text-to-Audio, Mel-Spectrogram, Audio Generation, Diffusion Models},
+  url = {https://doi.org/10.1109/ASRU65441.2025.11434719}
+}
+
+@inproceedings{wang2025detailtts,
+  title = {DetailTTS: Learning Residual Detail Information for Zero-shot Text-to-Speech},
+  author = {Cong Wang and Yichen Han and Yizhong Geng and Yingming Gao and Fengping Wang and Bingsong Bai and Qifei Li and Jinlong Xue and Yayue Deng and Zhengqi Wen and Ya Li},
+  year = {2025},
+  month = apr,
+  booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages = {1--5},
+  doi = {10.1109/ICASSP49660.2025.10890840},
+  abstract = {DetailTTS improves zero-shot text-to-speech by learning residual detail information, targeting higher-quality voice generation under unseen-speaker conditions.},
+  description = {Improves zero-shot TTS quality by modeling residual detail information for expressive speech synthesis.},
+  keywords = {Text-to-Speech, Zero-Shot TTS, Speech Synthesis},
+  url = {https://doi.org/10.1109/ICASSP49660.2025.10890840}
+}
+
+@inproceedings{chen2025emoavatar,
+  title = {EMO-Avatar: An LLM-Agent-Orchestrated Framework for Multimodal Emotional Support in Human Animation},
+  author = {Keqi Chen and Wenxin Fu and Qihang Lu and Zekai Sun and Yizhong Geng and Yi Liu and Puyuan Guo and Yingming Gao and Ya Li},
+  year = {2025},
+  month = oct,
+  booktitle = {ACM Multimedia},
+  pages = {14014--14020},
+  abstract = {EMO-Avatar is an LLM-agent-orchestrated framework for multimodal emotional support in human animation, connecting language-agent reasoning with expressive avatar behavior.},
+  description = {Explores multimodal emotional support for human animation with LLM-agent orchestration.},
+  keywords = {LLM Agent, Avatar, Emotional Support, Multimodal},
+  url = {https://dblp.org/rec/conf/mm/ChenFLSGLGG025}
+}
+
+@article{sun2025llaso,
+  title = {LLaSO: A Foundational Framework for Reproducible Research in Large Language and Speech Model},
+  author = {Yirong Sun and Yizhong Geng and Peidong Wei and Yanjun Chen and Jinghan Yang and Rongfei Chen and Wei Zhang and Xiaoyu Shen},
+  year = {2025},
+  month = aug,
+  journal = {CoRR},
+  volume = {abs/2508.15418},
+  doi = {10.48550/arXiv.2508.15418},
+  abstract = {LLaSO is an open framework for large speech-language modeling, providing alignment data, instruction-tuning datasets, evaluation benchmarks, and a 3.8B-parameter reference model to improve reproducibility and comparison in large speech-language model research.},
+  description = {An open end-to-end framework, datasets, benchmark, and reference model for reproducible research in large speech-language models.},
+  keywords = {Large Speech-Language Models, Reproducible Research, Instruction Tuning, Speech-Text Alignment},
+  code = {https://github.com/EIT-NLP/LLaSO},
+  url = {https://arxiv.org/abs/2508.15418}
+}
+
+@article{wang2025multiloss,
+  title = {Multi-Loss Learning for Speech Emotion Recognition with Energy-Adaptive Mixup and Frame-Level Attention},
+  author = {Cong Wang and Yizhong Geng and Yuhua Wen and Qifei Li and Yingming Gao and Ruimin Wang and Chunfeng Wang and Hao Li and Ya Li and Wei Chen},
+  year = {2025},
+  month = dec,
+  journal = {CoRR},
+  volume = {abs/2512.04551},
+  doi = {10.48550/arXiv.2512.04551},
+  abstract = {Speech emotion recognition is challenging due to emotional complexity and scarce annotated data. This work proposes a multi-loss learning framework integrating energy-adaptive mixup and frame-level attention to improve robustness and state-of-the-art performance across IEMOCAP, MSP-IMPROV, RAVDESS, and SAVEE.},
+  description = {Combines energy-adaptive mixup, frame-level attention, and multi-loss learning for robust speech emotion recognition.},
+  keywords = {Speech Emotion Recognition, Energy-Adaptive Mixup, Frame-Level Attention, Multi-Loss Learning},
+  url = {https://arxiv.org/abs/2512.04551}
 }

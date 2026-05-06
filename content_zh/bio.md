@@ -2,4 +2,4 @@
 
 我曾在理想汽车、深度逻辑智能科技有限公司和上海乂特欧文化传媒有限公司从事语音算法实习，参与 Instruct TTS 数据构建、LLM-based TTS、小语种 TTS、音频理解大模型以及面向落地的 TTS/VC 系统研发。
 
-我的近期论文已被 ACL 2025 Industry Track、INTERSPEECH 2025、ICME 2026 和 ICML 2026 接收。
+我的近期论文已发表于或被 ICML、ICME、AAAI、ACL Industry Track、INTERSPEECH、ASRU、ICASSP 和 ACM Multimedia 接收。

@@ -2,4 +2,4 @@ I am an Artificial Intelligence student in the integrated B.S./M.S. program at B
 
 I have worked as a speech algorithm intern at Li Auto, Beijing Logic Intelligence Technology, and Shanghai Yiteou Culture Media, contributing to Instruct TTS data construction, LLM-based TTS, low-resource Thai TTS, audio understanding models, and deployment-oriented TTS/VC systems.
 
-My recent papers have been accepted to ACL 2025 Industry Track, INTERSPEECH 2025, ICME 2026, and ICML 2026.
+My recent papers have appeared in or been accepted to ICML, ICME, AAAI, ACL Industry Track, INTERSPEECH, ASRU, ICASSP, and ACM Multimedia.

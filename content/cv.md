@@ -26,11 +26,16 @@
 
 ## Publications
 
+- **Bridging the Stability-Expressivity Gap: Synthetic Data Scaling and Preference Alignment for Low-Resource Spoken Language Models**, ICML 2026, first author.
+- **MeloCodec: Harnessing Melodic Priors for High-Fidelity Singing Voice Representation**, ICME 2026, first author.
+- **HQ-SVC: Towards High-Quality Zero-Shot Singing Voice Conversion in Low-Resource Scenarios**, AAAI 2026.
 - **Scaling Under-Resourced TTS: A Data-Optimized Framework with Advanced Acoustic Modeling for Thai**, ACL 2025 Industry Track, first author.
 - **EEG-based Voice Conversion: Hearing the Voice of Your Brain**, INTERSPEECH 2025, first author.
-- **MeloCodec: Harnessing Melodic Priors for High-Fidelity Singing Voice Representation**, ICME 2026, first author.
-- **Bridging the Stability-Expressivity Gap: Synthetic Data Scaling and Preference Alignment for Low-Resource Spoken Language Models**, ICML 2026, first author.
+- **Mel-Refine: A Plug-and-Play Approach to Refine Mel-Spectrogram in Audio Generation**, ASRU 2025.
 - **DetailTTS: Learning Residual Detail Information for Zero-shot Text-to-Speech**, ICASSP 2025, third author.
+- **EMO-Avatar: An LLM-Agent-Orchestrated Framework for Multimodal Emotional Support in Human Animation**, ACM Multimedia 2025.
+- **LLaSO: A Foundational Framework for Reproducible Research in Large Language and Speech Model**, CoRR 2025.
+- **Multi-Loss Learning for Speech Emotion Recognition with Energy-Adaptive Mixup and Frame-Level Attention**, CoRR 2025.
 
 ## Awards & Honors
 

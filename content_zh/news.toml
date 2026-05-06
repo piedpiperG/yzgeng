@@ -7,6 +7,18 @@ date = "2026-05"
 content = "MeloCodec 被 ICME 2026 接收。"
 
 [[news]]
+date = "2026-01"
+content = "HQ-SVC 发表于 AAAI 2026。"
+
+[[news]]
+date = "2025-12"
+content = "Mel-Refine 被 ASRU 2025 接收。"
+
+[[news]]
+date = "2025-10"
+content = "EMO-Avatar 发表于 ACM Multimedia 2025。"
+
+[[news]]
 date = "2025-09"
 content = "基于 EEG 的语音转换工作被 INTERSPEECH 2025 接收。"
 
