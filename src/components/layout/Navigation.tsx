@@ -182,8 +182,14 @@ export default function Navigation({
                 >
                   <Link
                     href="/"
-                    className="text-xl lg:text-2xl font-serif font-semibold text-primary hover:text-accent transition-colors duration-200"
+                    className="flex items-center gap-2 text-xl lg:text-2xl font-serif font-semibold text-primary hover:text-accent transition-colors duration-200"
                   >
+                    <span
+                      aria-hidden="true"
+                      className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-accent/60 bg-primary text-base font-bold leading-none text-background shadow-sm"
+                    >
+                      G
+                    </span>
                     {effectiveSiteTitle}
                   </Link>
                 </motion.div>
