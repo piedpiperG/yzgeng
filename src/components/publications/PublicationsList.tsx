@@ -38,6 +38,10 @@ export default function PublicationsList({ config, publications, embedded = fals
     const [showFilters, setShowFilters] = useState(false);
     const [expandedBibtexId, setExpandedBibtexId] = useState<string | null>(null);
     const [expandedAbstractId, setExpandedAbstractId] = useState<string | null>(null);
+    const formatVenue = (pub: Publication) => {
+        const venue = pub.journal || pub.conference;
+        return venue ? `${venue} · ${pub.year}` : String(pub.year);
+    };
 
     // Extract unique years and types for filters
     const years = useMemo(() => {
@@ -238,7 +242,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                         ))}
                                     </p>
                                     <p className="text-sm font-medium text-neutral-800 dark:text-neutral-600 mb-3">
-                                        {pub.journal || pub.conference} {pub.year}
+                                        {formatVenue(pub)}
                                     </p>
 
                                     {pub.description && (

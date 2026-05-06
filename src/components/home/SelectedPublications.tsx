@@ -14,6 +14,10 @@ interface SelectedPublicationsProps {
 export default function SelectedPublications({ publications, title, enableOnePageMode = false }: SelectedPublicationsProps) {
     const messages = useMessages();
     const resolvedTitle = title || messages.home.selectedPublications;
+    const formatVenue = (pub: Publication) => {
+        const venue = pub.journal || pub.conference;
+        return venue ? `${venue} · ${pub.year}` : String(pub.year);
+    };
 
     return (
         <motion.section
@@ -57,7 +61,7 @@ export default function SelectedPublications({ publications, title, enableOnePag
                             ))}
                         </p>
                         <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-2">
-                            {pub.journal || pub.conference}
+                            {formatVenue(pub)}
                         </p>
                         {pub.description && (
                             <p className="text-sm text-neutral-500 dark:text-neutral-500 line-clamp-2">

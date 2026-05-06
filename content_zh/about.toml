@@ -4,9 +4,9 @@ title = "关于我"
 [profile]
 research_interests = [
   "语音合成",
-  "语音转换",
+  "歌声合成",
   "音频大模型",
-  "低资源语音",
+  "可控语音生成",
   "神经音频编解码"
 ]
 
@@ -21,7 +21,7 @@ id = "featured_publications"
 type = "publications"
 title = "精选论文"
 filter = "selected"
-limit = 5
+limit = 4
 
 [[sections]]
 id = "news"

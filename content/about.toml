@@ -4,9 +4,9 @@ title = "About"
 [profile]
 research_interests = [
   "Text-to-Speech",
-  "Voice Conversion",
+  "Singing Voice Synthesis",
   "Audio Language Models",
-  "Low-Resource Speech",
+  "Controllable Speech Generation",
   "Neural Audio Codec"
 ]
 
@@ -21,7 +21,7 @@ id = "featured_publications"
 type = "publications"
 title = "Selected Publications"
 filter = "selected"
-limit = 5
+limit = 4
 
 [[sections]]
 id = "news"

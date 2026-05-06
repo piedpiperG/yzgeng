@@ -1,7 +1,7 @@
 I am currently a B.S./M.S. student in Artificial Intelligence at Beijing University of Posts and Telecommunications, advised by Prof. Ya Li.
 
-Alongside my research, I am a co-founder of Beijing Deep Logic Intelligence Technology. I have also worked as a speech algorithm intern at Li Auto, where I explored Instruct TTS, LLM-based TTS, dataset construction, and large-model fine-tuning for product-facing voice interaction scenarios.
+My research focuses on speech synthesis, singing voice synthesis, and audio language models. I care about the full path from algorithms to products: how to build data, train models, evaluate quality, and polish research prototypes into practical speech systems. My first-author papers have appeared in or been accepted to ICML, ACL, ICME, and INTERSPEECH.
 
-My work focuses on speech synthesis, voice conversion, neural audio codec, and audio language models. I care about the full path from research ideas to deployable speech systems: building data, training models, evaluating quality, and turning algorithms into usable products. Recent papers have appeared in or been accepted to ICML, ICME, AAAI, ACL Industry Track, INTERSPEECH, ASRU, ICASSP, and ACM Multimedia.
+Outside academic research, I also work closely with industry. I was a speech algorithm intern in the Foundation Model team at Li Auto, where I worked on Instruct TTS, continuous-feature-based speech synthesis, and melody-controllable singing voice synthesis for controllable, high-quality in-car voice generation. I am also a co-founder of Beijing Deep Logic Intelligence Technology, building ToB/C products such as video direct translation and comic-drama dubbing engines.
 
-I welcome academic exchange, product collaboration, and conversations around speech AI.
+I welcome academic exchange and industry collaboration. Please feel free to contact me.

@@ -1,6 +1,6 @@
 [site]
 title = "耿翊中"
-description = "耿翊中的个人主页，聚焦语音合成、语音转换、音频大模型与面向产品落地的语音 AI。"
+description = "耿翊中的个人主页，聚焦语音合成、歌声合成、音频大模型与面向产品落地的语音 AI。"
 last_updated = "2026年5月6日"
 
 [author]
@@ -38,9 +38,3 @@ title = "奖项"
 type = "page"
 target = "awards"
 href = "/awards"
-
-[[navigation]]
-title = "简历"
-type = "page"
-target = "cv"
-href = "/cv"
