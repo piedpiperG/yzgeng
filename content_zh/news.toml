@@ -3,7 +3,7 @@ date = "2026-05"
 content = "低资源口语语言模型相关论文被 ICML 2026 接收。"
 
 [[news]]
-date = "2026-05"
+date = "2026-04"
 content = "MeloCodec 被 ICME 2026 接收。"
 
 [[news]]
@@ -19,9 +19,9 @@ date = "2025-10"
 content = "EMO-Avatar 发表于 ACM Multimedia 2025。"
 
 [[news]]
-date = "2025-09"
-content = "基于 EEG 的语音转换工作被 INTERSPEECH 2025 接收。"
+date = "2025-08"
+content = "基于 EEG 的语音转换工作发表于 INTERSPEECH 2025。"
 
 [[news]]
-date = "2025-05"
-content = "泰语低资源 TTS 工作被 ACL 2025 Industry Track 接收。"
+date = "2025-07"
+content = "泰语低资源 TTS 工作发表于 ACL 2025 Industry Track。"
