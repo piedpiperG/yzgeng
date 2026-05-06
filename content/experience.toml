@@ -13,5 +13,5 @@ tags = ["Co-founder", "0-to-1 Product", "Video Translation", "Comic Dubbing", "S
 title = "Speech Algorithm Intern"
 subtitle = "Li Auto"
 date = "Jan 2025 - Jul 2025"
-content = "Worked in the Foundation Model team on **Instruct TTS**, **continuous-feature-based speech synthesis**, and **controllable singing voice synthesis** for in-car voice interaction. Built related experiments mainly on **VibeVoice** and **Ming-Omni-TTS**, covering data construction, model training, evaluation, and product-oriented validation for controllable, high-quality speech generation."
-tags = ["Instruct TTS", "VibeVoice", "Ming-Omni-TTS", "Continuous Features", "Controllable Singing"]
+content = "Worked in the Foundation Model team on **Instruct TTS** based on **CosyVoice** and **LLASA**, and on **continuous-feature-based speech synthesis** and **controllable singing voice synthesis** based on **VibeVoice** and **Ming-Omni-TTS** for in-car voice interaction. The work covered data construction, model training, evaluation, and product-oriented validation for controllable, high-quality speech generation."
+tags = ["Instruct TTS", "CosyVoice", "LLASA", "VibeVoice", "Ming-Omni-TTS", "Continuous Features", "Controllable Singing"]
