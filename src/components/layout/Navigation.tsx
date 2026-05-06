@@ -186,9 +186,16 @@ export default function Navigation({
                   >
                     <span
                       aria-hidden="true"
-                      className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-accent/60 bg-primary text-base font-bold leading-none text-background shadow-sm"
+                      className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-emerald-500/30 bg-emerald-50 text-emerald-600 shadow-sm dark:border-emerald-400/30 dark:bg-emerald-950/50 dark:text-emerald-300"
                     >
-                      G
+                      <svg viewBox="0 0 24 24" className="h-5 w-5" focusable="false">
+                        <path d="M12.9 13.3c2.7 2.2 3.5 4.8 2 7.4" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                        <ellipse cx="8.6" cy="8.6" rx="4" ry="5" transform="rotate(-45 8.6 8.6)" fill="currentColor" />
+                        <ellipse cx="15.4" cy="8.6" rx="4" ry="5" transform="rotate(45 15.4 8.6)" fill="currentColor" />
+                        <ellipse cx="8.6" cy="15.4" rx="4" ry="5" transform="rotate(45 8.6 15.4)" fill="currentColor" />
+                        <ellipse cx="15.4" cy="15.4" rx="4" ry="5" transform="rotate(-45 15.4 15.4)" fill="currentColor" />
+                        <circle cx="12" cy="12" r="2" fill="currentColor" />
+                      </svg>
                     </span>
                     {effectiveSiteTitle}
                   </Link>
