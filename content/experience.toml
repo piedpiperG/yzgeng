@@ -1,0 +1,24 @@
+type = "card"
+title = "Experience"
+description = "Research and engineering experience in speech AI."
+
+[[items]]
+title = "Speech Algorithm Intern"
+subtitle = "Li Auto"
+date = "Jan 2025 - Jul 2025"
+content = "Worked on Instruct TTS, LLM-based TTS, dataset construction, and large-model fine-tuning. Proposed an Instruct-text data construction framework and trained Instruct TTS models with CosyVoice2, LLASA, and related frameworks."
+tags = ["Instruct TTS", "LLM-based TTS", "Dataset Construction"]
+
+[[items]]
+title = "Speech Algorithm Intern"
+subtitle = "Beijing Logic Intelligence Technology"
+date = "Jun 2024 - Dec 2024"
+content = "Built the data, code, training, evaluation, and testing pipeline for Thai TTS and achieved state-of-the-art performance. Also adapted LLaMA-style architectures for audio understanding tasks."
+tags = ["Low-Resource TTS", "Thai TTS", "Audio Understanding"]
+
+[[items]]
+title = "Algorithm Intern"
+subtitle = "Shanghai Yiteou Culture Media"
+date = "Jan 2024 - Jun 2024"
+content = "Worked on speech synthesis, voice conversion, intent classification, and model deployment. Deployed and compared FastSpeech2, VITS, GPT-SoVITS, So-VITS-SVC, OpenVoice, and related systems."
+tags = ["TTS", "Voice Conversion", "Deployment"]

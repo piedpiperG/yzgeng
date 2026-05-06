@@ -1,0 +1,33 @@
+type = "card"
+title = "Awards"
+description = "Selected honors and competition awards."
+
+[[items]]
+title = "National Second Prize"
+subtitle = "China Robotics and Artificial Intelligence Competition"
+date = "2024"
+content = "National-level award in robotics and artificial intelligence."
+
+[[items]]
+title = "National Third Prize"
+subtitle = "China College Students Service Outsourcing Innovation and Entrepreneurship Competition"
+date = "2023"
+content = "National-level award in innovation and entrepreneurship."
+
+[[items]]
+title = "National Third Prize"
+subtitle = "National English Competition for College Students"
+date = "2024"
+content = "National-level English competition award."
+
+[[items]]
+title = "Northern Region Third Prize"
+subtitle = "China Collegiate Computing Contest, Computer Music Track"
+date = "2024"
+content = "Regional award in the computer music track."
+
+[[items]]
+title = "University-level Scholarship"
+subtitle = "Beijing University of Posts and Telecommunications"
+date = "2022-2024"
+content = "Awarded for three consecutive years."

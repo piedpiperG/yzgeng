@@ -1,0 +1,4 @@
+type = "publication"
+title = "论文"
+description = "已接收的语音合成、语音转换、神经音频编解码与低资源口语语言模型相关论文。"
+source = "publications.bib"

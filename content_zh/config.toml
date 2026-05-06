@@ -1,0 +1,46 @@
+[site]
+title = "耿翊中"
+description = "耿翊中的个人主页，聚焦语音合成、语音转换与音频大模型。"
+last_updated = "2026年5月6日"
+
+[author]
+name = "耿翊中"
+title = "人工智能专业本硕连读生"
+institution = "北京邮电大学"
+
+[social]
+location = "北京，中国"
+location_details = [
+  "北京邮电大学",
+  "北京，中国"
+]
+
+[[navigation]]
+title = "关于我"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "论文"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "经历"
+type = "page"
+target = "experience"
+href = "/experience"
+
+[[navigation]]
+title = "奖项"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "简历"
+type = "page"
+target = "cv"
+href = "/cv"

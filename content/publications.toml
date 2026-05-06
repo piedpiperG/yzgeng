@@ -1,0 +1,4 @@
+type = "publication"
+title = "Publications"
+description = "Accepted research papers in speech synthesis, voice conversion, neural audio codec, and low-resource spoken language models."
+source = "publications.bib"

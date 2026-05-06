@@ -1,0 +1,69 @@
+[site]
+title = "Yizhong Geng"
+description = "Personal homepage of Yizhong Geng, an AI student at Beijing University of Posts and Telecommunications working on speech synthesis, voice conversion, and audio language models."
+favicon = "/favicon.svg"
+last_updated = "May 6, 2026"
+
+[author]
+name = "Yizhong Geng"
+title = "Artificial Intelligence Student"
+institution = "Beijing University of Posts and Telecommunications"
+avatar = "/avatar.jpg"
+
+[social]
+email = "yzgeng@bupt.edu.cn"
+location = "Beijing, China"
+location_url = "https://maps.google.com/?q=Beijing%20University%20of%20Posts%20and%20Telecommunications"
+location_details = [
+  "Beijing University of Posts and Telecommunications",
+  "Beijing, China"
+]
+github = "https://github.com/piedpiperG"
+google_scholar = "https://scholar.google.com/citations?user=E-8rsGoAAAAJ&hl=zh-CN"
+
+[features]
+enable_likes = false
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["zh", "en"]
+default_locale = "en"
+mode = "auto"
+fixed_locale = "en"
+persist = true
+switcher = true
+
+[i18n.labels]
+zh = "中文"
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Experience"
+type = "page"
+target = "experience"
+href = "/experience"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

@@ -1,0 +1,30 @@
+type = "about"
+title = "About"
+
+[profile]
+research_interests = [
+  "Text-to-Speech",
+  "Voice Conversion",
+  "Audio Language Models",
+  "Low-Resource Speech",
+  "Neural Audio Codec"
+]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "About"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "Selected Publications"
+filter = "selected"
+limit = 5
+
+[[sections]]
+id = "news"
+type = "list"
+title = "News"
+source = "news.toml"

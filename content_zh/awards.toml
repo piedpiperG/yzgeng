@@ -1,0 +1,33 @@
+type = "card"
+title = "奖项"
+description = "部分竞赛获奖与荣誉。"
+
+[[items]]
+title = "全国二等奖"
+subtitle = "中国机器人及人工智能大赛"
+date = "2024"
+content = "机器人与人工智能方向全国级奖项。"
+
+[[items]]
+title = "全国三等奖"
+subtitle = "中国大学生服务外包创新创业大赛"
+date = "2023"
+content = "创新创业方向全国级奖项。"
+
+[[items]]
+title = "全国三等奖"
+subtitle = "中国大学生英语竞赛"
+date = "2024"
+content = "英语能力竞赛全国级奖项。"
+
+[[items]]
+title = "北部区域三等奖"
+subtitle = "中国大学生计算机设计大赛（计算机作曲赛道）"
+date = "2024"
+content = "计算机音乐与作曲方向区域级奖项。"
+
+[[items]]
+title = "校级奖学金"
+subtitle = "北京邮电大学"
+date = "2022-2024"
+content = "连续三年获得北京邮电大学校级奖学金。"
