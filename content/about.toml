@@ -6,8 +6,10 @@ research_interests = [
   "Text-to-Speech",
   "Singing Voice Synthesis",
   "Audio Language Models",
+  "Low-Resource TTS",
+  "Minority-Language Speech Synthesis",
   "Controllable Speech Generation",
-  "Neural Audio Codec"
+  "Speech AI Productization"
 ]
 
 [[sections]]

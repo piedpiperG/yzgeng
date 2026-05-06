@@ -1,17 +1,17 @@
 type = "card"
 title = "Experience"
-description = "A focused path across speech algorithm research, startup building, and product deployment."
+description = "A focused path across speech algorithm research, low-resource TTS, startup building, and product deployment."
 
 [[items]]
-title = "Co-founder / Speech Algorithm Researcher"
+title = "Co-founder / Product & Speech AI Lead"
 subtitle = "Beijing Deep Logic Intelligence Technology"
 date = "2024 - Present"
-content = "Co-founded and helped build speech AI capabilities around low-resource TTS, full-pipeline model training, evaluation, and product delivery. The work connects research prototypes with client-facing scenarios, covering data construction, acoustic modeling, audio understanding, and deployment-oriented iteration."
-tags = ["Co-founder", "Low-Resource TTS", "Speech Productization"]
+content = "Co-founded the company and helped build **video direct translation** and **comic-drama dubbing** products from zero to one. My work covers product definition, user and client scenario analysis, data and model pipelines, prototype iteration, delivery feedback loops, and speech generation quality evaluation, turning low-resource TTS and dubbing research into practical ToB/C product capabilities."
+tags = ["Co-founder", "0-to-1 Product", "Video Translation", "Comic Dubbing", "Speech Productization"]
 
 [[items]]
 title = "Speech Algorithm Intern"
 subtitle = "Li Auto"
 date = "Jan 2025 - Jul 2025"
-content = "Worked on Instruct TTS, LLM-based TTS, dataset construction, and large-model fine-tuning for in-car voice interaction. Proposed an Instruct-text data construction framework, trained and evaluated Instruct TTS models with CosyVoice2, LLASA, and related frameworks, and supported product-oriented validation."
-tags = ["Instruct TTS", "LLM-based TTS", "In-Car Voice"]
+content = "Worked in the Foundation Model team on **Instruct TTS**, **continuous-feature-based speech synthesis**, and **controllable singing voice synthesis** for in-car voice interaction. Built related experiments mainly on **VibeVoice** and **Ming-Omni-TTS**, covering data construction, model training, evaluation, and product-oriented validation for controllable, high-quality speech generation."
+tags = ["Instruct TTS", "VibeVoice", "Ming-Omni-TTS", "Continuous Features", "Controllable Singing"]
