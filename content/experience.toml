@@ -1,24 +1,17 @@
 type = "card"
 title = "Experience"
-description = "Research and engineering experience in speech AI."
+description = "A focused path across speech algorithm research, startup building, and product deployment."
+
+[[items]]
+title = "Co-founder / Speech Algorithm Researcher"
+subtitle = "Beijing Deep Logic Intelligence Technology"
+date = "2024 - Present"
+content = "Co-founded and helped build speech AI capabilities around low-resource TTS, full-pipeline model training, evaluation, and product delivery. The work connects research prototypes with client-facing scenarios, covering data construction, acoustic modeling, audio understanding, and deployment-oriented iteration."
+tags = ["Co-founder", "Low-Resource TTS", "Speech Productization"]
 
 [[items]]
 title = "Speech Algorithm Intern"
 subtitle = "Li Auto"
 date = "Jan 2025 - Jul 2025"
-content = "Worked on Instruct TTS, LLM-based TTS, dataset construction, and large-model fine-tuning. Proposed an Instruct-text data construction framework and trained Instruct TTS models with CosyVoice2, LLASA, and related frameworks."
-tags = ["Instruct TTS", "LLM-based TTS", "Dataset Construction"]
-
-[[items]]
-title = "Speech Algorithm Intern"
-subtitle = "Beijing Logic Intelligence Technology"
-date = "Jun 2024 - Dec 2024"
-content = "Built the data, code, training, evaluation, and testing pipeline for Thai TTS and achieved state-of-the-art performance. Also adapted LLaMA-style architectures for audio understanding tasks."
-tags = ["Low-Resource TTS", "Thai TTS", "Audio Understanding"]
-
-[[items]]
-title = "Algorithm Intern"
-subtitle = "Shanghai Yiteou Culture Media"
-date = "Jan 2024 - Jun 2024"
-content = "Worked on speech synthesis, voice conversion, intent classification, and model deployment. Deployed and compared FastSpeech2, VITS, GPT-SoVITS, So-VITS-SVC, OpenVoice, and related systems."
-tags = ["TTS", "Voice Conversion", "Deployment"]
+content = "Worked on Instruct TTS, LLM-based TTS, dataset construction, and large-model fine-tuning for in-car voice interaction. Proposed an Instruct-text data construction framework, trained and evaluated Instruct TTS models with CosyVoice2, LLASA, and related frameworks, and supported product-oriented validation."
+tags = ["Instruct TTS", "LLM-based TTS", "In-Car Voice"]

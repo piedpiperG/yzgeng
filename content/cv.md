@@ -1,28 +1,21 @@
 ## Education
 
-**Beijing University of Posts and Telecommunications**, M.S. in Artificial Intelligence, *2025 - 2028*
-- Research focus: text-to-speech, voice conversion, and audio language models.
-
-**Beijing University of Posts and Telecommunications**, B.S. in Artificial Intelligence, *2021 - 2025*
-- Average score: 92.41/100; ranking: 20/208.
-- CET-4/6 completed.
+**Beijing University of Posts and Telecommunications**, B.S./M.S. in Artificial Intelligence, *2021 - 2028*
+- Advisor: Prof. Ya Li.
+- Research focus: text-to-speech, voice conversion, neural audio codec, and audio language models.
+- Undergraduate record: average score 92.41/100; ranking 20/208; CET-4/6 completed.
 
 ## Experience
 
+**Co-founder / Speech Algorithm Researcher**, Beijing Deep Logic Intelligence Technology Co., Ltd., *2024 - Present*
+- Help build speech AI capabilities around low-resource TTS, full-pipeline model training, evaluation, and product delivery.
+- Work across data construction, acoustic modeling, audio understanding, and deployment-oriented iteration.
+- Connect research prototypes with practical client scenarios, emphasizing usable and scalable speech systems.
+
 **Speech Algorithm Intern**, Li Auto, *Jan 2025 - Jul 2025*
-- Worked on Instruct TTS, LLM-based TTS, dataset construction, and large-model fine-tuning.
+- Worked on Instruct TTS, LLM-based TTS, dataset construction, and large-model fine-tuning for in-car voice interaction.
 - Proposed a batched Instruct-text data construction framework to improve end-to-end TTS generalization to instruction text.
-- Trained and evaluated Instruct TTS models based on CosyVoice2, LLASA, and related TTS frameworks; supported product deployment.
-
-**Speech Algorithm Intern**, Beijing Logic Intelligence Technology, *Jun 2024 - Dec 2024*
-- Worked on low-resource TTS, GAN-based TTS, full-pipeline model training, and large-model pretraining.
-- Built data, code, training, evaluation, and testing pipelines for Thai TTS, achieving state-of-the-art performance on the task.
-- Adapted LLaMA-style architectures to audio understanding and trained multitask audio understanding models with strong benchmark performance.
-
-**Algorithm Intern**, Shanghai Yiteou Culture Media, *Jan 2024 - Jun 2024*
-- Worked on speech synthesis, voice conversion, base model training, and application deployment.
-- Trained BERT-based dialogue intent classification models to improve response speed in dialogue systems.
-- Deployed and compared FastSpeech2, VITS, GPT-SoVITS, So-VITS-SVC, OpenVoice, and related TTS/VC systems.
+- Trained and evaluated Instruct TTS models based on CosyVoice2, LLASA, and related frameworks; supported product-oriented validation.
 
 ## Publications
 
@@ -48,5 +41,5 @@
 ## Skills
 
 - **Speech AI:** TTS, voice conversion, neural audio codec, audio language models, EEG-based voice conversion.
+- **Product-oriented research:** dataset construction, model training, evaluation, fine-tuning, deployment, and iteration with real usage scenarios.
 - **Modeling:** CosyVoice2, LLASA, FastSpeech2, VITS, GPT-SoVITS, So-VITS-SVC, OpenVoice, LLaMA-style audio understanding.
-- **Research workflow:** dataset construction, model training, evaluation, fine-tuning, and deployment-oriented experimentation.

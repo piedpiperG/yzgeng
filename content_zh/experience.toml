@@ -1,24 +1,17 @@
 type = "card"
 title = "经历"
-description = "语音 AI 方向的科研与工程经历。"
+description = "围绕语音算法研究、创业产品化与车载语音场景的经历。"
+
+[[items]]
+title = "联合创始人 / 语音算法研究者"
+subtitle = "北京深度逻辑智能科技有限公司"
+date = "2024 - 至今"
+content = "作为联合创始人之一，参与建设面向小语种 TTS、全链路模型训练、效果评估与产品交付的语音 AI 能力。相关工作覆盖数据构建、声学建模、音频理解与面向客户场景的部署迭代，强调从研究原型到真实产品的闭环。"
+tags = ["联合创始人", "小语种 TTS", "语音产品化"]
 
 [[items]]
 title = "语音算法实习生"
 subtitle = "理想汽车"
 date = "2025 年 01 月 - 2025 年 07 月"
-content = "参与 Instruct TTS、LLM-based TTS、数据集构建与大模型微调。提出 Instruct-text 数据批量化制作框架，并基于 CosyVoice2、LLASA 等框架训练与验证 Instruct TTS 模型。"
-tags = ["Instruct TTS", "LLM-based TTS", "数据构建"]
-
-[[items]]
-title = "语音算法实习生"
-subtitle = "深度逻辑智能科技有限公司"
-date = "2024 年 06 月 - 2024 年 12 月"
-content = "针对泰语 TTS 任务完成数据搜集、代码构建、模型训练、评估测试并取得 SOTA 效果；同时基于 LLaMA 架构适配音频理解任务。"
-tags = ["小语种 TTS", "泰语 TTS", "音频理解"]
-
-[[items]]
-title = "算法实习生"
-subtitle = "上海乂特欧文化传媒有限公司"
-date = "2024 年 01 月 - 2024 年 06 月"
-content = "参与语音合成、语音转换、意图分类与模型部署，部署并对比 FastSpeech2、VITS、GPT-SoVITS、So-VITS-SVC、OpenVoice 等系统。"
-tags = ["语音合成", "语音转换", "模型部署"]
+content = "参与 Instruct TTS、LLM-based TTS、数据集构建与大模型微调，面向车载语音交互场景推进指令可控的高质量语音生成能力。提出 Instruct-text 数据批量化制作框架，并基于 CosyVoice2、LLASA 等框架训练与验证 Instruct TTS 模型。"
+tags = ["Instruct TTS", "LLM-based TTS", "车载语音"]

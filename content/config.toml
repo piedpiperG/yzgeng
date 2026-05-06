@@ -1,12 +1,12 @@
 [site]
 title = "Yizhong Geng"
-description = "Personal homepage of Yizhong Geng, an AI student at Beijing University of Posts and Telecommunications working on speech synthesis, voice conversion, and audio language models."
+description = "Personal homepage of Yizhong Geng, an AI researcher and speech algorithm practitioner working across speech synthesis, voice conversion, audio language models, and product-oriented speech AI."
 favicon = "/favicon.svg"
 last_updated = "May 6, 2026"
 
 [author]
 name = "Yizhong Geng"
-title = "Artificial Intelligence Student"
+title = "B.S./M.S. Student in Artificial Intelligence"
 institution = "Beijing University of Posts and Telecommunications"
 avatar = "/avatar.jpg"
 
