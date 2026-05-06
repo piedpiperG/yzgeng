@@ -12,6 +12,6 @@ tags = ["联合创始人", "0 到 1 产品", "视频直译", "漫剧配音", "�
 [[items]]
 title = "语音算法实习生"
 subtitle = "理想汽车"
-date = "2025 年 01 月 - 2025 年 07 月"
+date = "2025 年 01 月 - 2026 年 03 月"
 content = "在基座模型团队参与基于 **CosyVoice**、**LLASA** 的 **Instruct TTS**，以及基于 **VibeVoice**、**Ming-Omni-TTS** 的**连续特征语音合成**与**可控歌声合成**研究，面向车载语音交互场景推进可控、高质量的语音生成能力。相关工作覆盖数据构建、模型训练、效果评估与产品化验证。"
 tags = ["Instruct TTS", "CosyVoice", "LLASA", "VibeVoice", "Ming-Omni-TTS", "连续特征", "可控歌声"]
