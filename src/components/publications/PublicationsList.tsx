@@ -43,6 +43,8 @@ export default function PublicationsList({ config, publications, embedded = fals
         return venue ? `${venue} · ${pub.year}` : String(pub.year);
     };
 
+    const shouldShowDoi = (pub: Publication) => Boolean(pub.doi && !pub.url && !pub.pdfUrl);
+
     // Extract unique years and types for filters
     const years = useMemo(() => {
         const uniqueYears = Array.from(new Set(publications.map(p => p.year)));
@@ -252,7 +254,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                     )}
 
                                     <div className="flex flex-wrap gap-2 mt-auto">
-                                        {pub.doi && (
+                                        {shouldShowDoi(pub) && pub.doi && (
                                             <a
                                                 href={`https://doi.org/${pub.doi}`}
                                                 target="_blank"
