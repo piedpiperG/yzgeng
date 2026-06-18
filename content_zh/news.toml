@@ -1,4 +1,8 @@
 [[news]]
+date = "2026-06"
+content = "Instruct-TTS Stabilizer 被 INTERSPEECH 2026 接收。"
+
+[[news]]
 date = "2026-05"
 content = "低资源口语语言模型相关论文被 ICML 2026 接收。"
 

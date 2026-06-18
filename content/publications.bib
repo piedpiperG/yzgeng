@@ -1,3 +1,18 @@
+@inproceedings{geng2026stabilizing,
+  selected = {true},
+  title = {Stabilizing Instruction Supervision for Instruct-TTS via Controllable Diversification and Drift Filtering},
+  author = {Yizhong Geng and Kecan Mao and Qifei Li and Cong Wang and Yingming Gao and Ruimin Wang and Chunfeng Wang and Hao Li and Ya Li},
+  year = {2026},
+  month = sep,
+  booktitle = {Proceedings of INTERSPEECH 2026},
+  abstract = {Instruct-TTS systems commonly expand structured style labels into natural-language training instructions through LLM rewriting, yet unconstrained rewriting can introduce semantic drift that corrupts supervision signals and weakens generalization. This work formalizes instruction supervision instability and proposes a data-centric stabilization recipe with controllable instruction diversification, LLM-based drift filtering, and attribute-aligned supervision.},
+  description = {Stabilizes instruction supervision for controllable TTS through constrained diversification, drift filtering, and attribute-aligned acoustic perturbation.},
+  keywords = {Instruct-TTS, Text-to-Speech, Instruction Supervision, Controllable Speech Generation, Data Filtering},
+  pdf = {https://piedpiperg.github.io/instruct-tts-stabilizer/instruct-tts-stabilizer.pdf},
+  code = {https://github.com/piedpiperG/instruct-tts-stabilizer},
+  url = {https://piedpiperg.github.io/instruct-tts-stabilizer/}
+}
+
 @inproceedings{geng2026stability,
   selected = {true},
   title = {Bridging the Stability-Expressivity Gap: Synthetic Data Scaling and Preference Alignment for Low-Resource Spoken Language Models},
@@ -9,7 +24,10 @@
   description = {Studies synthetic data scaling for low-resource spoken language models and proposes self-alignment methods that improve stability and expressivity for Thai and Lao speech generation.},
   keywords = {Spoken Language Models, Text-to-Speech, Low-Resource Speech, Synthetic Data, Preference Alignment},
   pdf = {/papers/icml2026-yizhong-geng.pdf},
-  url = {https://luoji.cn/static/multilantts-demo-main/}
+  arxiv = {https://arxiv.org/abs/2605.27383},
+  code = {https://github.com/InsiderX-Pro/SE-Bridge-TTS},
+  huggingface = {https://huggingface.co/isabeth/SE-Bridge-TTS},
+  url = {https://insiderx-pro.github.io/SE-Bridge-TTS/}
 }
 
 @inproceedings{geng2026melocodec,
@@ -23,7 +41,8 @@
   description = {Introduces a neural audio codec that embeds melodic structure into discrete representations for high-fidelity and controllable singing voice generation.},
   keywords = {Neural Audio Codec, Singing Voice Representation, Melodic Priors, Residual Vector Quantization},
   pdf = {/papers/icme2026-yizhong-geng.pdf},
-  url = {https://anonymous.4open.science/api/repo/melocodec_demo-60EC/file/demo.html?v=42c197c7}
+  code = {https://github.com/piedpiperG/MeloCodec},
+  url = {https://piedpiperg.github.io/MeloCodec/}
 }
 
 @inproceedings{bai2026hqsvc,
@@ -41,7 +60,7 @@
   description = {Presents an efficient zero-shot singing voice conversion system for low-resource scenarios, improving conversion quality and supporting voice super-resolution.},
   keywords = {Singing Voice Conversion, Zero-Shot Voice Conversion, Low-Resource Speech, Audio Super-Resolution},
   pdf = {https://arxiv.org/pdf/2511.08496},
-  code = {https://huggingface.co/shawnpi/HQ-SVC},
+  huggingface = {https://huggingface.co/shawnpi/HQ-SVC},
   url = {https://shawnpi233.github.io/HQ-SVC-demo/}
 }
 

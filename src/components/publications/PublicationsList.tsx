@@ -43,7 +43,7 @@ export default function PublicationsList({ config, publications, embedded = fals
         return venue ? `${venue} · ${pub.year}` : String(pub.year);
     };
 
-    const shouldShowDoi = (pub: Publication) => Boolean(pub.doi && !pub.url && !pub.pdfUrl);
+    const shouldShowDoi = (pub: Publication) => Boolean(pub.doi && !pub.url && !pub.arxivUrl && !pub.pdfUrl);
 
     // Extract unique years and types for filters
     const years = useMemo(() => {
@@ -272,6 +272,26 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
                                             >
                                                 {messages.publications.code}
+                                            </a>
+                                        )}
+                                        {pub.arxivUrl && (
+                                            <a
+                                                href={pub.arxivUrl}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
+                                            >
+                                                {messages.publications.arxiv}
+                                            </a>
+                                        )}
+                                        {pub.huggingface && (
+                                            <a
+                                                href={pub.huggingface}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
+                                            >
+                                                {messages.publications.huggingface}
                                             </a>
                                         )}
                                         {pub.pdfUrl && (
