@@ -33,6 +33,7 @@ type PageData =
 export interface HomePageLocaleData {
   author: SiteConfig['author'];
   social: SiteConfig['social'];
+  travelMap?: SiteConfig['travel_map'];
   features: SiteConfig['features'];
   enableOnePageMode?: boolean;
   researchInterests?: string[];
@@ -60,6 +61,7 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
           <Profile
             author={data.author}
             social={data.social}
+            travelMap={data.travelMap}
             features={data.features}
             researchInterests={data.researchInterests}
           />

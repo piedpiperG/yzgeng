@@ -21,7 +21,18 @@ interface SectionConfig {
 interface NewsItem {
   date: string;
   content: string;
+  links?: {
+    label: string;
+    url: string;
+  }[];
 }
+
+const featuredPublicationOrder = [
+  'geng2026stability',
+  'geng2025thai',
+  'geng2026stabilizing',
+  'geng2026melocodec',
+];
 
 type PageData =
   | { type: 'about'; id: string; sections: SectionConfig[] }
@@ -41,7 +52,14 @@ function processSections(sections: SectionConfig[], locale?: string): SectionCon
         const bibtex = getBibtexContent('publications.bib', locale);
         const allPubs = parseBibTeX(bibtex, locale);
         const filteredPubs = section.filter === 'selected'
-          ? allPubs.filter((p) => p.selected)
+          ? allPubs
+            .filter((p) => p.selected)
+            .sort((a, b) => {
+              const aRank = featuredPublicationOrder.indexOf(a.id);
+              const bRank = featuredPublicationOrder.indexOf(b.id);
+              return (aRank === -1 ? Number.MAX_SAFE_INTEGER : aRank)
+                - (bRank === -1 ? Number.MAX_SAFE_INTEGER : bRank);
+            })
           : allPubs;
         return {
           ...section,
@@ -130,6 +148,7 @@ function loadPageDataForLocale(locale: string | undefined): HomePageLocaleData {
   return {
     author: localeConfig.author,
     social: localeConfig.social,
+    travelMap: localeConfig.travel_map,
     features: localeConfig.features,
     enableOnePageMode,
     researchInterests,

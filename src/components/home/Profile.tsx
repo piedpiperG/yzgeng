@@ -14,6 +14,7 @@ import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid';
 import { Github, Linkedin, Pin } from 'lucide-react';
 import type { SiteConfig } from '@/lib/config';
 import { useMessages } from '@/lib/i18n/useMessages';
+import TravelMap from './TravelMap';
 
 // Custom ORCID icon component
 const OrcidIcon = ({ className }: { className?: string }) => (
@@ -30,6 +31,7 @@ const OrcidIcon = ({ className }: { className?: string }) => (
 interface ProfileProps {
     author: SiteConfig['author'];
     social: SiteConfig['social'];
+    travelMap?: SiteConfig['travel_map'];
     features: SiteConfig['features'];
     researchInterests?: string[];
 }
@@ -42,7 +44,7 @@ function withBasePath(path: string): string {
     return `${basePath}${path}`;
 }
 
-export default function Profile({ author, social, features, researchInterests }: ProfileProps) {
+export default function Profile({ author, social, travelMap, features, researchInterests }: ProfileProps) {
     const messages = useMessages();
 
     const [hasLiked, setHasLiked] = useState(false);
@@ -322,6 +324,8 @@ export default function Profile({ author, social, features, researchInterests }:
                     </div>
                 </div>
             )}
+
+            <TravelMap map={travelMap} />
 
             {/* Like Button */}
             {features.enable_likes && (

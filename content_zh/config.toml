@@ -15,6 +15,131 @@ location_details = [
   "北京，中国"
 ]
 
+[travel_map]
+title = "足迹地图"
+subtitle = "我曾经到访过的地方。"
+
+[[travel_map.points]]
+label = "北京"
+detail = "中国"
+lat = 39.9042
+lng = 116.4074
+current = true
+
+[[travel_map.points]]
+label = "西安"
+detail = "中国"
+lat = 34.3416
+lng = 108.9398
+
+[[travel_map.points]]
+label = "长沙"
+detail = "中国"
+lat = 28.2282
+lng = 112.9388
+
+[[travel_map.points]]
+label = "维也纳"
+detail = "奥地利"
+lat = 48.2082
+lng = 16.3738
+
+[[travel_map.points]]
+label = "布拉格"
+detail = "捷克"
+lat = 50.0755
+lng = 14.4378
+
+[[travel_map.points]]
+label = "鹿特丹"
+detail = "荷兰"
+lat = 51.9244
+lng = 4.4777
+
+[[travel_map.points]]
+label = "首尔"
+detail = "韩国"
+lat = 37.5665
+lng = 126.9780
+
+[[travel_map.points]]
+label = "济州岛"
+detail = "韩国"
+lat = 33.4996
+lng = 126.5312
+
+[[travel_map.points]]
+label = "伊斯坦布尔"
+detail = "土耳其"
+lat = 41.0082
+lng = 28.9784
+
+[[travel_map.points]]
+label = "上海"
+detail = "中国"
+lat = 31.2304
+lng = 121.4737
+
+[[travel_map.points]]
+label = "黑龙江"
+detail = "中国"
+lat = 45.8038
+lng = 126.5349
+
+[[travel_map.points]]
+label = "沈阳"
+detail = "中国"
+lat = 41.8057
+lng = 123.4315
+
+[[travel_map.points]]
+label = "大同"
+detail = "中国"
+lat = 40.0768
+lng = 113.3001
+
+[[travel_map.points]]
+label = "扬州"
+detail = "中国"
+lat = 32.3942
+lng = 119.4129
+
+[[travel_map.points]]
+label = "北海"
+detail = "中国"
+lat = 21.4811
+lng = 109.1202
+
+[[travel_map.points]]
+label = "乌鲁木齐"
+detail = "中国"
+lat = 43.8256
+lng = 87.6168
+
+[[travel_map.points]]
+label = "成都"
+detail = "中国"
+lat = 30.5728
+lng = 104.0668
+
+[[travel_map.points]]
+label = "重庆"
+detail = "中国"
+lat = 29.5630
+lng = 106.5516
+
+[[travel_map.points]]
+label = "昆明"
+detail = "中国"
+lat = 25.0389
+lng = 102.7183
+
+[[travel_map.points]]
+label = "南京"
+detail = "中国"
+lat = 32.0603
+lng = 118.7969
+
 [[navigation]]
 title = "关于我"
 type = "page"

@@ -9,7 +9,11 @@ import {
     CalendarIcon,
     BookOpenIcon,
     ClipboardDocumentIcon,
-    DocumentTextIcon
+    CloudArrowDownIcon,
+    CodeBracketIcon,
+    DocumentTextIcon,
+    GlobeAltIcon,
+    PlayCircleIcon
 } from '@heroicons/react/24/outline';
 import { Publication } from '@/types/publication';
 import { PublicationPageConfig } from '@/types/page';
@@ -271,27 +275,8 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 rel="noopener noreferrer"
                                                 className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
                                             >
+                                                <CodeBracketIcon className="h-3 w-3 mr-1.5" />
                                                 {messages.publications.code}
-                                            </a>
-                                        )}
-                                        {pub.arxivUrl && (
-                                            <a
-                                                href={pub.arxivUrl}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
-                                            >
-                                                {messages.publications.arxiv}
-                                            </a>
-                                        )}
-                                        {pub.huggingface && (
-                                            <a
-                                                href={pub.huggingface}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
-                                            >
-                                                {messages.publications.huggingface}
                                             </a>
                                         )}
                                         {pub.pdfUrl && (
@@ -305,14 +290,59 @@ export default function PublicationsList({ config, publications, embedded = fals
                                                 {messages.publications.pdf}
                                             </a>
                                         )}
-                                        {pub.url && (
+                                        {pub.arxivUrl && (
                                             <a
-                                                href={pub.url}
+                                                href={pub.arxivUrl}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
                                             >
-                                                {messages.publications.link}
+                                                <DocumentTextIcon className="h-3 w-3 mr-1.5" />
+                                                {messages.publications.arxiv}
+                                            </a>
+                                        )}
+                                        {(pub.projectUrl || pub.url) && (
+                                            <a
+                                                href={pub.projectUrl || pub.url}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
+                                            >
+                                                <GlobeAltIcon className="h-3 w-3 mr-1.5" />
+                                                {pub.projectUrl ? messages.publications.project : messages.publications.link}
+                                            </a>
+                                        )}
+                                        {pub.demoUrl && (
+                                            <a
+                                                href={pub.demoUrl}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
+                                            >
+                                                <PlayCircleIcon className="h-3 w-3 mr-1.5" />
+                                                {messages.publications.demo}
+                                            </a>
+                                        )}
+                                        {pub.huggingface && (
+                                            <a
+                                                href={pub.huggingface}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
+                                            >
+                                                <CloudArrowDownIcon className="h-3 w-3 mr-1.5" />
+                                                {messages.publications.huggingface}
+                                            </a>
+                                        )}
+                                        {pub.weightsUrl && (
+                                            <a
+                                                href={pub.weightsUrl}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center px-3 py-1 rounded-md text-xs font-medium bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-accent hover:text-white transition-colors"
+                                            >
+                                                <CloudArrowDownIcon className="h-3 w-3 mr-1.5" />
+                                                {messages.publications.weights}
                                             </a>
                                         )}
                                         {pub.abstract && (

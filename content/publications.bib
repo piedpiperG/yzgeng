@@ -1,16 +1,17 @@
 @inproceedings{geng2026stabilizing,
   selected = {true},
   title = {Stabilizing Instruction Supervision for Instruct-TTS via Controllable Diversification and Drift Filtering},
-  author = {Yizhong Geng and Kecan Mao and Qifei Li and Cong Wang and Yingming Gao and Ruimin Wang and Chunfeng Wang and Hao Li and Ya Li},
+  author = {Yizhong Geng and Kecan Mao and Qifei Li and Cong Wang and Yingming Gao and Ruimin Wang and Chunfeng Wang and Hao Li and Ya Li*},
   year = {2026},
   month = sep,
   booktitle = {Proceedings of INTERSPEECH 2026},
-  abstract = {Instruct-TTS systems commonly expand structured style labels into natural-language training instructions through LLM rewriting, yet unconstrained rewriting can introduce semantic drift that corrupts supervision signals and weakens generalization. This work formalizes instruction supervision instability and proposes a data-centric stabilization recipe with controllable instruction diversification, LLM-based drift filtering, and attribute-aligned supervision.},
-  description = {Stabilizes instruction supervision for controllable TTS through constrained diversification, drift filtering, and attribute-aligned acoustic perturbation.},
-  keywords = {Instruct-TTS, Text-to-Speech, Instruction Supervision, Controllable Speech Generation, Data Filtering},
+  abstract = {Instruct-TTS systems expand structured style labels into natural-language training instructions through LLM rewriting, but unconstrained rewriting often introduces semantic drift that corrupts supervision and weakens generalization. This work formalizes instruction supervision instability and proposes a data-centric stabilization recipe with controllable instruction diversification, LLM-based drift filtering, and attribute-aligned supervision for prosody control.},
+  description = {Stabilizes Instruct-TTS supervision by combining controllable instruction diversification, semantic-drift filtering, and attribute-aligned acoustic perturbation.},
+  keywords = {Instruct-TTS, Text-to-Speech, Instruction Supervision, Semantic Drift, Data-Centric Stabilization},
   pdf = {https://piedpiperg.github.io/instruct-tts-stabilizer/instruct-tts-stabilizer.pdf},
   code = {https://github.com/piedpiperG/instruct-tts-stabilizer},
-  url = {https://piedpiperg.github.io/instruct-tts-stabilizer/}
+  url = {https://piedpiperg.github.io/instruct-tts-stabilizer/},
+  demo = {https://piedpiperg.github.io/instruct-tts-stabilizer/#audio-demos}
 }
 
 @inproceedings{geng2026stability,
@@ -27,7 +28,8 @@
   arxiv = {https://arxiv.org/abs/2605.27383},
   code = {https://github.com/InsiderX-Pro/SE-Bridge-TTS},
   huggingface = {https://huggingface.co/isabeth/SE-Bridge-TTS},
-  url = {https://insiderx-pro.github.io/SE-Bridge-TTS/}
+  url = {https://insiderx-pro.github.io/SE-Bridge-TTS/},
+  demo = {https://insiderx-pro.github.io/SE-Bridge-TTS/#audio-demo}
 }
 
 @inproceedings{geng2026melocodec,
@@ -42,7 +44,8 @@
   keywords = {Neural Audio Codec, Singing Voice Representation, Melodic Priors, Residual Vector Quantization},
   pdf = {/papers/icme2026-yizhong-geng.pdf},
   code = {https://github.com/piedpiperG/MeloCodec},
-  url = {https://piedpiperg.github.io/MeloCodec/}
+  url = {https://piedpiperg.github.io/MeloCodec/},
+  demo = {https://piedpiperg.github.io/MeloCodec/#audio}
 }
 
 @inproceedings{bai2026hqsvc,
@@ -70,7 +73,7 @@
   author = {Yizhong Geng and Jizhuo Xu and Zeyu Liang and Jinghan Yang and Xiaoyi Shi and Xiaoyu Shen*},
   year = {2025},
   month = jul,
-  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 6: Industry Track)},
+  booktitle = {ACL},
   pages = {593--604},
   doi = {10.18653/v1/2025.acl-industry.42},
   abstract = {Text-to-speech technology has achieved impressive results for widely spoken languages, yet many under-resourced languages remain challenged by limited data and linguistic complexities. This work integrates a data-optimized framework with advanced acoustic modeling to build high-quality Thai TTS, supporting zero-shot voice cloning and improved performance across finance, healthcare, education, and law scenarios.},

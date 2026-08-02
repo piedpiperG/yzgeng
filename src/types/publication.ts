@@ -30,6 +30,9 @@ export interface Publication {
   code?: string;
   huggingface?: string;
   pdfUrl?: string;
+  projectUrl?: string;
+  demoUrl?: string;
+  weightsUrl?: string;
   tags: string[];
   keywords?: string[];
   type: PublicationType;

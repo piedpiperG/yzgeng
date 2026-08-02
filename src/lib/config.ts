@@ -27,6 +27,7 @@ export interface SiteConfig {
     linkedin?: string;
     [key: string]: string | string[] | undefined;
   };
+  travel_map?: TravelMapConfig;
   features: {
     enable_likes: boolean;
     enable_one_page_mode?: boolean;
@@ -46,6 +47,20 @@ export interface SiteConfig {
     limit?: number;
   }>;
   i18n?: I18nConfig;
+}
+
+export interface TravelMapPoint {
+  label: string;
+  detail?: string;
+  lat: number;
+  lng: number;
+  current?: boolean;
+}
+
+export interface TravelMapConfig {
+  title?: string;
+  subtitle?: string;
+  points?: TravelMapPoint[];
 }
 
 const DEFAULT_CONTENT_DIR = 'content';
@@ -83,6 +98,7 @@ function mergeConfig(base: SiteConfig, localized?: Partial<SiteConfig> | null): 
       ...base.social,
       ...(localized.social || {}),
     },
+    travel_map: localized.travel_map || base.travel_map,
     features: base.features,
     navigation: localized.navigation || base.navigation,
     sections: localized.sections || base.sections,

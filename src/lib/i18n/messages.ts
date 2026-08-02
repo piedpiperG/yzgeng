@@ -44,6 +44,9 @@ export interface LocaleMessages {
     arxiv: string;
     huggingface: string;
     pdf: string;
+    project: string;
+    demo: string;
+    weights: string;
     link: string;
   };
   footer: {
@@ -98,6 +101,9 @@ const en: LocaleMessages = {
     arxiv: 'arXiv',
     huggingface: 'HuggingFace',
     pdf: 'PDF',
+    project: 'Project',
+    demo: 'Demo',
+    weights: 'Weights',
     link: 'Project',
   },
   footer: {
@@ -152,6 +158,9 @@ const zh: LocaleMessages = {
     arxiv: 'arXiv',
     huggingface: 'HuggingFace',
     pdf: 'PDF',
+    project: '项目',
+    demo: 'Demo',
+    weights: '权重',
     link: '项目',
   },
   footer: {

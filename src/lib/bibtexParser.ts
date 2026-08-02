@@ -87,13 +87,34 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       arxivUrl: tags.arxiv || tags.arxivurl,
       huggingface: tags.huggingface || tags.hf,
       pdfUrl: tags.pdf || tags.pdfurl,
+      projectUrl: tags.project || tags.projecturl,
+      demoUrl: tags.demo || tags.demourl,
+      weightsUrl: tags.weights || tags.weightsurl,
       abstract: cleanBibTeXString(tags.abstract),
       description: cleanBibTeXString(tags.description || tags.note),
       selected,
       preview,
 
       // Store original BibTeX (excluding custom fields)
-      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code', 'pdf', 'pdfurl', 'arxiv', 'arxivurl', 'huggingface', 'hf']),
+      bibtex: reconstructBibTeX(entry, [
+        'selected',
+        'preview',
+        'description',
+        'keywords',
+        'code',
+        'pdf',
+        'pdfurl',
+        'arxiv',
+        'arxivurl',
+        'project',
+        'projecturl',
+        'demo',
+        'demourl',
+        'weights',
+        'weightsurl',
+        'huggingface',
+        'hf',
+      ]),
     };
 
     // Clean up undefined fields
