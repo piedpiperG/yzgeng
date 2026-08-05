@@ -3,8 +3,7 @@ date = "2026-08"
 content = "Released CLASVS, a state-of-the-art singing voice synthesis system for editing lyrics while preserving the reference melody, timing, singer identity, and expression."
 links = [
   { label = "Paper", url = "https://arxiv.org/abs/2608.03253" },
-  { label = "Demo", url = "https://piedpiperg.github.io/Liyric-SVS/" },
-  { label = "Code", url = "https://github.com/piedpiperG/Liyric-SVS" }
+  { label = "Demo", url = "https://piedpiperg.github.io/Liyric-SVS/#real-world" }
 ]
 
 [[news]]
