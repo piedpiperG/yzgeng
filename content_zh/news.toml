@@ -1,4 +1,13 @@
 [[news]]
+date = "2026-08"
+content = "发布 CLASVS：一项面向歌声合成的 SOTA 歌词编辑工作，可在修改歌词的同时保留原演唱的旋律、时序、歌手身份与表现力。"
+links = [
+  { label = "论文", url = "https://arxiv.org/abs/2608.03253" },
+  { label = "演示", url = "https://piedpiperg.github.io/Liyric-SVS/" },
+  { label = "代码", url = "https://github.com/piedpiperG/Liyric-SVS" }
+]
+
+[[news]]
 date = "2026-06"
 content = "Instruct-TTS Stabilizer 被 INTERSPEECH 2026 接收。"
 
